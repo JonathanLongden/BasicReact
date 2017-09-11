@@ -6,8 +6,9 @@
 
 var React = require('react');
 var UserSignupForm = require('./userSignupForm.js');
+var createReactClass = require('create-react-class');
 
-var UserSignupData = React.createClass({
+var UserSignupData = createReactClass({
 	getInitialState: function(){
 		return {
 			email: '',

@@ -7,8 +7,10 @@
 
 var React = require('react');
 var UserLoginForm = require('./userLoginForm.js');
+var createReactClass = require('create-react-class');
 
-var UserLoginData = React.createClass({
+
+var UserLoginData = createReactClass({
 	getInitialState: function(){
 		return {
 			email: "",

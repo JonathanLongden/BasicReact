@@ -13,14 +13,22 @@ var UserLoginData = require('./userLoginData.js');
 var UserSignupData = require('./userSignupData.js');
 var LogoutUser = require('./userLogout.js');
 var AwareOfUser = require('./awareOfUser.js');
+var createReactClass = require('create-react-class');
 
+// var UserAuth = React.createClass({
+// 	getInitialState: function(){
+// 		return {
+// 			user: null
+// 		}
+// 	}
 
-var UserAuth = React.createClass({
+var UserAuth = createReactClass({
 	getInitialState: function(){
 		return {
 			user: null
 		}
-	},
+	}
+,
 
 	loginUserFromServer: function(user){
 		var self = this;

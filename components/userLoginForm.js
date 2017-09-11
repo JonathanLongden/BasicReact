@@ -5,8 +5,9 @@
 //		UserSignupForm
 
 var React = require('react');
+var createReactClass = require('create-react-class');
 
-var UserLoginForm = React.createClass({
+var UserLoginForm = createReactClass({
 
 	render: function(){
 			

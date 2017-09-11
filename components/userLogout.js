@@ -1,6 +1,7 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 
-var LogoutUser = React.createClass({
+var LogoutUser = createReactClass({
 	render: function(){
 		return (
 			<div>
